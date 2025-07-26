@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: test2web
+    env: java
+    buildCommand: javac Test2web.java
+    startCommand: java Test2web
